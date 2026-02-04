@@ -1,202 +1,80 @@
-\documentclass[12pt]{article}
-
-\usepackage{sbc-template}
-\usepackage{graphicx}
-\usepackage{url}
-\usepackage[brazil]{babel} 
-\usepackage[utf8]{inputenc}
-\usepackage{booktabs}
-\usepackage[pdftex]{hyperref}
-\usepackage{indentfirst}
-
-     
-\sloppy
-
-\title{Título do Trabalho: Subtítulo}
-
-\author{Nome do Autor Um\inst{1}, Nome do Autor Dois\inst{1}, \\Nome do Autor Três\inst{1}, Nome do Autor Quatro\inst{1}, \\Nome do Autor N. \inst{1}, Verônica dos Santos Nascimento\inst{2}, Gilton José Ferreira da Silva\inst{2} } 
-
-\address{Departamento de Computação (DCOMP)\\ Universidade Federal de Sergipe
-  (UFS)\\
-  Av. Marechal Rondon, s/n -- Jardim Rosa Elze -- CEP 49100-000 \\São Cristóvão -- SE -- Brazil \nextinstitute
-  Programa de Pós-Graduação em Ciência da Computação - (PROCC)\\Universidade Federal de Sergipe
-  (UFS)\\
-  Av. Marechal Rondon, s/n -- Jardim Rosa Elze -- CEP 49100-000 \\São Cristóvão -- SE -- Brazil
-  \email{autor01@dcomp.ufs.br, autor02@dcomp.ufs.br}
-  \email{autor03@dcomp.ufs.br, autor04@dcomp.ufs.br}
-  \email{veronica.nascimento@dcomp.ufs.br, gilton@dcomp.ufs.br}
+@book{EVIPNet,
+  author = {EVIPNet},
+  title = {Summary of evidence for health policy: congestion and overcrowding of hospital emergency services. Modo de acesso: 13-sintesecongestaosuperlotacaofinal31mar2020.pdf},
+  publisher = {MINISTÉRIO DA SAÚDE},
+  year = {2020}
 }
 
-\begin{document} 
-
-\maketitle
-
-\begin{abstract}
-\textbf {Context:} Appear the work context. \textbf {Objective:} This work aims to ... \textbf {Method:} Describe the methodological procedures used in the research. \textbf {Results:} Discuss the results of this work. \textbf {Conclusions:} Show the conclusions that were found.
-\end{abstract}
-     
-\begin{resumo} 
-  \textbf{Contexto:} Aparentar o contexto do trabalho. \textbf{Objetivo:} Este trabalho tem como objetivo ... \textbf{Método:} Descrever os procedimentos metodológicos utilizados na pesquisa. \textbf{Resultados:} Discutir sobre os resultados advindos deste trabalho. \textbf{Conclusões:} Mostrar as conclusões que foram encontradas.
-\end{resumo}
-
-
-\section{Introdução} \label{sec:introducao}
-(Contexto)
-
-Esta seção apresenta o contexto no qual o projeto está inserido, destacando o problema prático ou científico que motivou sua concepção. São abordadas as lacunas existentes, a relevância do tema, o público impactado e a justificativa para a adoção de uma abordagem estruturada de gerenciamento de projetos, especificamente o Project Model Canvas, como instrumento de planejamento e comunicação do projeto.
-
-*No mínimo 1 parágrafo
-
-
-\subsection{Justificativa}
-\label{sec:justificativa}
-(Por quê?)
-
-A justificativa descreve as necessidades, demandas não atendidas ou oportunidades que fundamentam a proposição do projeto. Esta seção explicita o problema central que se pretende resolver, sustentado por evidências empíricas, dados institucionais, literatura científica ou normativas vigentes. Busca-se demonstrar a relevância científica, social, organizacional ou econômica do projeto, legitimando sua execução.
-
-
-\section{Objetivos} 
-Objetivos... 1 parágrafo;
-
-\section{Benefícios} 
-
-Benefícios... 1 parágrafo;
-
-\section{Descrição das próximas seções} 
-Descrição das próximas seções do trabalho ... 1 parágrafo.
-
-
-\section{O que será feito? } \label{sec:oque}
-
-Breve descrição das próximas subseções...\\
-
-\subsection{Produto}
-
-Descrição do Produto...
-
-\subsection{Trabalhos Relacionados}
-
-Apresentar uma descrição dos trabalhos (artigos semelhantes que foram buscados nas bases de pesquisa).
-
-\subsection{Arquitetura Visão-Modelo 4+1}
-
-Descrição da Arquitetura conforme a Visão-Modelo 4+1.
-
-A arquitetura visão-modelo 4+1 foi desenvolvida por Philippe Cruchten com o objetivo de descrever o funcionamento de sistemas de software e é baseado no uso de múltiplas visões concorrentes.
-
-As visões são usadas para mostrar o sistema sob várias perspectivas, como usuário final, desenvolvedores e gerentes de projetos.
-
-As quatro visões de modelo são: visão lógica (1), visão de desenvolvimento (2), visão de processo (3) e visão física (4). A visão de caso de uso é usada para ilustrar a arquitetura e representa a visão +1.
-
-Visão lógica : Se concentra na funcionalidade que o sistema disponibiliza para o usuároi final. Os diagramas UML usados para representar a visão lógica incluem: Diagrama de classes, Diagrama de comunicação e Diagrama de sequencia. 
-Visão de desenvolvimento : Ilustra o sistema do ponto de vista do programador e se preocupa com o gerenciamento de projeto. Esta visão também é conhecida como visão de implementação. Usa o Diagrama de componentes ou Diagrama de pacotes. 
-Visão de processo : Permite visualizar as partes dinâmicas do sistema, explicar os processos e como eles se comunicam, focando no comportamento do sistema. A visão de processo se encarrega da concorrência, distribuição, integração, performance e escalabilidade. O Diagrama de atividades é usado nesta visão.
-Visão física : Mostra o sistema do ponto de vista do egenheiro. Se preocupa com a topologia dos componentes de software (no contexto físico) assim como a comunicação entre esses componentes. Esta visão também é conhecida como visão de implantação. Os diagramas UML usados para descrever esta visão incluem o Diagrama de implantação.
-Visão de caso de uso : Descreve a arquitetura do sistema através do uso de Diagramas de casos de uso. Cada diagrama descreve sequências de interações entre os objetos e processos. São usados para identificar elementos de arquiteturra e ilustrar e validar o design de arquitetura.
-
-Mais informações no link: 
-\url{http://www.basef.com.br/old/uml/204-arquitetura-visao-modelo-41}
-
-
-\subsection{Requisitos}
-
-Descrição dos Requisitos...
-
-
-\subsection{Telas do Sistema}
-
-Apresentar As telas referente aos fluxos dos processos de negócio;\\
-
-Obs.: Inclua Figuras, Tabelas, Quadros, Códigos, etc...
-
-
-A Figura \ref{fig:fluxo_sistema} apresenta um fluxo descrevendo o processo principal do sistema. 
-
-\begin{figure}[!ht]
-\centering
-\includegraphics[width=12cm]
-{images/telas.jpg}
-\caption{Gráfico de prisma com a extração de dados}
-\label{fig:fluxo_sistema}
-\end{figure}
-
-
-
-
-\section{Quem fará o projeto}\label{sec:quem}
-
-Breve descrição das próximas subseções...
-
-\subsection{Stakeholders e Fatores Externos}
-parceiros externos necessários para alcançar as metas.
-
-
-\subsubsection{Mapa de Empatia do Tomador de Decisão}
-
-Inserir o mapa de empatia do tomador de decisão e explicar suas dores e necessidades.
-
-
-\subsection{Equipe}
-Apresentar a Equipe e a funão de cada um
-
-\begin{itemize}
-  \item Nome do Autor Um: Pesquisa, correções e escrita do manuscrito;
-  \item Nome do Autor Dois: Pesquisa, correções e escrita do manuscrito;
-  \item Nome do Autor Três: Pesquisa, correções e escrita do manuscrito;
-  \item Nome do Autor Quatro: Pesquisa, correções e escrita do manuscrito;
-  \item Verônica dos Santos Nascimento: Pesquisa, correções e escrita do manuscrito;
-  \item Gilton José Ferreira da Silva: Coordenação do trabalho, correções e direcionamentos da pesquisa.
-\end{itemize}
-
-\section{Como o projeto será feito?} \label{sec:Como}
-Breve descrição das próximas subseções...\\
-
-
-\subsection{Premissas}
-
-\subsection{Grupo de entregas}
-
-\subsection{Restrições}
-
-
-\section{Quando e quanto?} \label{sec:quandoquanto}
-Breve descrição das próximas subseções...\\
-
-
-
-
-\subsection{Riscos}
-
-\subsection{Linha do tempo}
-
-\subsection{Custos}
-
-
-\section{Limitações do Trabalho} \label{sec:ameacas}
-
-Inserir informações a cerca do que não foi apresentado no trabalho.
-
-
-
-\section{Considerações Finais} \label{sec:consideracoes}
-Descrição das atividades realizadas para atingir o objetivo do trabalho... 2 paragrafo\\
-Descrição da metodologia utilizada para atingir o objetivo do trabalho... 1 paragrafo\\
-Descrição dos pontos fracos ou que possam inviabilizar a credibilidade do trabalho... 1 paragrafo\\
-Descrição das atividades futuras para se concluir o trabalho... 1 paragrafo\\
-
-\section*{Agradecimentos} \label{sec:agradecimentos}
-
-Esta seção tem como objetivo agradecer a todas as pessoas e instituições que ajudaram na pesquisa, mas que não se qualificam para autoria.
-
-Alguns periódicos e eventos exigem que sejam informados os dados refentes ao às organizações que financiaram a pesquisa.
-
-
-
-
-
-
-
-\bibliographystyle{sbc}
-\bibliography{referencias}
-
-\end{document}
+@ARTICLE{Santos2026,
+	author = {Santos, Eduardo and Brito, Ana Carolina and Fonseca, Luana and Figueiredo, Margarida and Esteves, Matilde and Santos, Diana},
+	title = {Interventions to reduce overcrowding in emergency departments: An umbrella review},
+	year = {2026},
+	journal = {International Emergency Nursing},
+	volume = {84},
+	doi = {10.1016/j.ienj.2025.101729},
+	url = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-105024250215&doi=10.1016%2fj.ienj.2025.101729&partnerID=40&md5=b3c76f7005a9628d22e0c4204334a84f},
+	type = {Review},
+	publication_stage = {Final},
+	source = {Scopus},
+	note = {Cited by: 0; All Open Access, Hybrid Gold Open Access}
+}
+
+@Book{knuth:84,
+  author = 	 {Donald E. Knuth},
+  title = 	 {The {\TeX} Book},
+  publisher = 	 {Addison-Wesley},
+  year = 	 {1984},
+  edition = 	 {15th}
+}
+
+@InCollection{boulic:91,
+  author = 	 {R. Boulic and O. Renault},
+  title = 	 {3D Hierarchies for Animation},
+  booktitle = 	 {New Trends in Animation and Visualization},
+  publisher =    {John Wiley {\&} Sons ltd.},
+  year = 	 {1991},
+  editor = 	 {Nadia Magnenat-Thalmann and Daniel Thalmann}
+}
+
+@InCollection{smith:99,
+  author = 	 {A. Smith and B. Jones},
+  title = 	 {On the Complexity of Computing},
+  booktitle = 	 {Advances in Computer Science},
+  pages = 	 {555--566},
+  publisher =    {Publishing Press},
+  year = 	 {1999},
+  editor = 	 {A. B. Smith-Jones}
+}
+
+@ARTICLE{Hidayat2014657,
+author={Hidayat, A. and Utomo, V.G.},
+title={Open source based M-learning application for supporting distance learning},
+journal={Telkomnika (Telecommunication Computing Electronics and Control)},
+year={2014},
+volume={12},
+number={3},
+pages={657-664},
+doi={10.12928/v12i3.104},
+note={cited By 7},
+url={https://www.scopus.com/inward/record.uri?eid=2-s2.0-84907440835&doi=10.12928%2fv12i3.104&partnerID=40&md5=4b84b4bde5c9182d256b35a64711db21},
+affiliation={STIMIK ProVisi, Semarang, Indonesia},
+abstract={The concept of learning anywhere and anytime is unable to be fully implemented because user need to find comfortable place, which is required, to follow the study. User is unable to access learning material in a way that practical, easy to use and easy to access. Based on that fact, system or application for mobile device such as hand phone, PDA or smart phone is needed.The m-learning application is developed by Computer-Based System Engineering Method based on the principal of software engineering using development steps of System Development Life Cycle (SDLC). SDLC consists of the following steps, analysis, design, implementation, testing and evaluation. Trials as alpha-test, carried out to determine operability of m-learning system on handheld devices. Trial is taken by creating trial class followed by 25 students to receive feedback about the m-learning system. Feedback result shows almost 90% of respondents consider the m-learning system is easy to use.},
+author_keywords={Distance learning;  Mobile learning;  Open source},
+keywords={Application programs;  Cellular telephone systems;  Deep neural networks;  Distance education;  E-learning;  Engineering education;  Learning systems;  Life cycle;  Mobile devices;  Open source software;  Smartphones;  Software engineering;  Telephone sets, Computer-based system;  Engineering methods;  Hand held device;  Learning materials;  Mobile Learning;  Open sources;  System development life cycles;  Testing and evaluation, Computer aided instruction},
+references={Hasan, T., Sajid, A., ICTs in Learning in Pakistan (2012) International Journal of Evaluation and Research in Education, 1 (2), pp. 51-60; Liao, J., Liu, X., Learning the Course of Design and Analyze of Computer Algorithms via Online Coding (2013) International Journal of Evaluation and Research in Education (IJERE), 2 (3), pp. 107-111; Trifonova, A., Ronchetti, M., (2003) A General Architecture for M-Learning, , November; Lehner, F., Nosekabel, H., Lehmann, H., Wireless E-Learning and Communication Environment: WELCOME at the University of Regensburg (2003) E-Service Journal, 2, pp. 23-41; Ally, M., Lin, F., McGreal, R., Woo, B., An Intelligent Agent for Adapting and Delivering Course Materials to Mobile Learners (2005) Proceeding of the mLearn2005. 4th World Conference on Mlearning., , Cape Town, South Africa; (2003) Introduction to Mobile Learning by Karen Wood, , http://ferl.becta.org.uk/display.cfm?page=65&catid=192&resid=5194&printable=1, Ferl website (accessed 09/04/12); Holzinger, A., Nischelwitzer, A., Meisenberger, M., Mobile Phones as a Challenge for m-Learning: Experiences with the Mobile Learning Engine (MLE) using Mobile Interactive Learning Objects (MILOS) (2005) Proceeding PERCOMW '05. Third IEEE International Conference on Pervasive Computing and Communications Workshops, pp. 307-311. , Washington DC, USA; Attewell, J., From Research and Development to Mobile Learning: Tools for Education and Training Providers and their Learners (2005) Proceeding of the mLearn2005. 4th World Conference on Mlearning., , Cape Town, South Africa},
+publisher={Universitas Ahmad Dahlan},
+issn={16936930},
+language={English},
+abbrev_source_title={Telkomnika Telecomun. Compt. Electr. Control},
+document_type={Article},
+source={Scopus},
+}
+
+@inproceedings{artigo_teste,
+  title={Fuzzy multicriteria analysis of m-learning system},
+  author={Stani{\'c}, PM and {\v{C}}ovi{\'c}, Z and Kiss, B},
+  booktitle={2012 IEEE 10th Jubilee International Symposium on Intelligent Systems and Informatics},
+  pages={357--360},
+  year={2012},
+  organization={IEEE}
+}
