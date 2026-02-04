@@ -1,80 +1,274 @@
-@book{EVIPNet,
-  author = {EVIPNet},
-  title = {Summary of evidence for health policy: congestion and overcrowding of hospital emergency services. Modo de acesso: 13-sintesecongestaosuperlotacaofinal31mar2020.pdf},
-  publisher = {MINISTÉRIO DA SAÚDE},
-  year = {2020}
+\documentclass[12pt]{article}
+
+\usepackage{sbc-template}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage[brazil]{babel} 
+\usepackage[utf8]{inputenc}
+\usepackage{booktabs}
+\usepackage[pdftex]{hyperref}
+\usepackage{indentfirst}
+
+     
+\sloppy
+
+\title{Sidus:Sistema Inteligente para Descongestionar Unidades de Saúde}
+
+\author{Davi Bittencourt de Almeida\inst{1}, Gustavo Henrique Aragão Silva\inst{1}, \\Gyovani Yuri Souza Santos\inst{1}, João Felipe Quentino\inst{1}, \\Jorge Henrique Marques Gomes\inst{1}, Wemerson da Silva Soares\inst{1}, \\Verônica dos Santos Nascimento\inst{2},Gilton José Ferreira da Silva\inst{2} } 
+
+\address{Departamento de Computação (DCOMP)\\ Universidade Federal de Sergipe
+  (UFS)\\
+  Av. Marechal Rondon, s/n -- Jardim Rosa Elze -- CEP 49100-000 \\São Cristóvão -- SE -- Brazil \nextinstitute
+  Programa de Pós-Graduação em Ciência da Computação - (PROCC)\\Universidade Federal de Sergipe
+  (UFS)\\
+  Av. Marechal Rondon, s/n -- Jardim Rosa Elze -- CEP 49100-000 \\São Cristóvão -- SE -- Brazil
+   \email{davi.almeida@dcomp.ufs.br, gustavo.aragao@dcomp.ufs.br}
+  \email{gyovani.santos@dcomp.ufs.br, joao.quentino@dcomp.ufs.br}
+  \email{jorge.gomes@dcomp.ufs.br, wemerson.soares@dcomp.ufs.br}
+  \email{veronica.nascimento@dcomp.ufs.br, gilton@dcomp.ufs.br}
 }
 
-@ARTICLE{Santos2026,
-	author = {Santos, Eduardo and Brito, Ana Carolina and Fonseca, Luana and Figueiredo, Margarida and Esteves, Matilde and Santos, Diana},
-	title = {Interventions to reduce overcrowding in emergency departments: An umbrella review},
-	year = {2026},
-	journal = {International Emergency Nursing},
-	volume = {84},
-	doi = {10.1016/j.ienj.2025.101729},
-	url = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-105024250215&doi=10.1016%2fj.ienj.2025.101729&partnerID=40&md5=b3c76f7005a9628d22e0c4204334a84f},
-	type = {Review},
-	publication_stage = {Final},
-	source = {Scopus},
-	note = {Cited by: 0; All Open Access, Hybrid Gold Open Access}
-}
+\begin{document} 
 
-@Book{knuth:84,
-  author = 	 {Donald E. Knuth},
-  title = 	 {The {\TeX} Book},
-  publisher = 	 {Addison-Wesley},
-  year = 	 {1984},
-  edition = 	 {15th}
-}
+\maketitle
 
-@InCollection{boulic:91,
-  author = 	 {R. Boulic and O. Renault},
-  title = 	 {3D Hierarchies for Animation},
-  booktitle = 	 {New Trends in Animation and Visualization},
-  publisher =    {John Wiley {\&} Sons ltd.},
-  year = 	 {1991},
-  editor = 	 {Nadia Magnenat-Thalmann and Daniel Thalmann}
-}
+\begin{abstract}
+\textbf {Context:} Overcrowding in public health services is a recurring problem that is exacerbated by population aging, chronic diseases, and failures in care coordination. \textbf{Objective:} This work aims to develop a Decision Support System (DSS) to optimize the allocation of hospital resources in emergency units(UPA). \textbf {Method:} The DSS will use the UPA database to analyze which allocation choices generate the best results and then provide UPA staff with suggestions on how patients should be allocated. \textbf {Results:} It is expected to reduce queues, waiting times and the workload of professionals, increasing operational efficiency. \textbf {Conclusions:} O SAD pode apoiar gestores hospitalares na tomada de decisão baseada em dados, contribuindo para maior qualidade e segurança no atendimento.
+\end{abstract}
+     
+\begin{resumo} 
+  \textbf{Contexto:} A superlotação em serviços públicos de saúde é um problema recorrente que é agravado por envelhecimento populacional, doenças crônicas e falhas na coordenação do cuidado. \textbf{Objetivo:}  Este trabalho visa desenvolver um Sistema de Apoio à Decisão (SAD) para otimizar a alocação de recursos hospitalares em unidades de urgência. \textbf{Método:} O SAD vai ultilizar o banco de dados de UPAs para analizar quais escolhas de alocação geram os melhores resultados e então fornescer aos funcionarios de  UPAs sugestões de como os pacientes devem ser alocados. \textbf{Resultados:}Espera-se reduzir filas, tempo de espera e sobrecarga dos profissionais, aumentando a eficiência operacional. \textbf{Conclusões:} O SAD pode apoiar gestores hospitalares na tomada de decisão baseada em dados, contribuindo para maior qualidade e segurança no atendimento.
+\end{resumo}
 
-@InCollection{smith:99,
-  author = 	 {A. Smith and B. Jones},
-  title = 	 {On the Complexity of Computing},
-  booktitle = 	 {Advances in Computer Science},
-  pages = 	 {555--566},
-  publisher =    {Publishing Press},
-  year = 	 {1999},
-  editor = 	 {A. B. Smith-Jones}
-}
 
-@ARTICLE{Hidayat2014657,
-author={Hidayat, A. and Utomo, V.G.},
-title={Open source based M-learning application for supporting distance learning},
-journal={Telkomnika (Telecommunication Computing Electronics and Control)},
-year={2014},
-volume={12},
-number={3},
-pages={657-664},
-doi={10.12928/v12i3.104},
-note={cited By 7},
-url={https://www.scopus.com/inward/record.uri?eid=2-s2.0-84907440835&doi=10.12928%2fv12i3.104&partnerID=40&md5=4b84b4bde5c9182d256b35a64711db21},
-affiliation={STIMIK ProVisi, Semarang, Indonesia},
-abstract={The concept of learning anywhere and anytime is unable to be fully implemented because user need to find comfortable place, which is required, to follow the study. User is unable to access learning material in a way that practical, easy to use and easy to access. Based on that fact, system or application for mobile device such as hand phone, PDA or smart phone is needed.The m-learning application is developed by Computer-Based System Engineering Method based on the principal of software engineering using development steps of System Development Life Cycle (SDLC). SDLC consists of the following steps, analysis, design, implementation, testing and evaluation. Trials as alpha-test, carried out to determine operability of m-learning system on handheld devices. Trial is taken by creating trial class followed by 25 students to receive feedback about the m-learning system. Feedback result shows almost 90% of respondents consider the m-learning system is easy to use.},
-author_keywords={Distance learning;  Mobile learning;  Open source},
-keywords={Application programs;  Cellular telephone systems;  Deep neural networks;  Distance education;  E-learning;  Engineering education;  Learning systems;  Life cycle;  Mobile devices;  Open source software;  Smartphones;  Software engineering;  Telephone sets, Computer-based system;  Engineering methods;  Hand held device;  Learning materials;  Mobile Learning;  Open sources;  System development life cycles;  Testing and evaluation, Computer aided instruction},
-references={Hasan, T., Sajid, A., ICTs in Learning in Pakistan (2012) International Journal of Evaluation and Research in Education, 1 (2), pp. 51-60; Liao, J., Liu, X., Learning the Course of Design and Analyze of Computer Algorithms via Online Coding (2013) International Journal of Evaluation and Research in Education (IJERE), 2 (3), pp. 107-111; Trifonova, A., Ronchetti, M., (2003) A General Architecture for M-Learning, , November; Lehner, F., Nosekabel, H., Lehmann, H., Wireless E-Learning and Communication Environment: WELCOME at the University of Regensburg (2003) E-Service Journal, 2, pp. 23-41; Ally, M., Lin, F., McGreal, R., Woo, B., An Intelligent Agent for Adapting and Delivering Course Materials to Mobile Learners (2005) Proceeding of the mLearn2005. 4th World Conference on Mlearning., , Cape Town, South Africa; (2003) Introduction to Mobile Learning by Karen Wood, , http://ferl.becta.org.uk/display.cfm?page=65&catid=192&resid=5194&printable=1, Ferl website (accessed 09/04/12); Holzinger, A., Nischelwitzer, A., Meisenberger, M., Mobile Phones as a Challenge for m-Learning: Experiences with the Mobile Learning Engine (MLE) using Mobile Interactive Learning Objects (MILOS) (2005) Proceeding PERCOMW '05. Third IEEE International Conference on Pervasive Computing and Communications Workshops, pp. 307-311. , Washington DC, USA; Attewell, J., From Research and Development to Mobile Learning: Tools for Education and Training Providers and their Learners (2005) Proceeding of the mLearn2005. 4th World Conference on Mlearning., , Cape Town, South Africa},
-publisher={Universitas Ahmad Dahlan},
-issn={16936930},
-language={English},
-abbrev_source_title={Telkomnika Telecomun. Compt. Electr. Control},
-document_type={Article},
-source={Scopus},
-}
+\section{Introdução} \label{sec:introducao}
 
-@inproceedings{artigo_teste,
-  title={Fuzzy multicriteria analysis of m-learning system},
-  author={Stani{\'c}, PM and {\v{C}}ovi{\'c}, Z and Kiss, B},
-  booktitle={2012 IEEE 10th Jubilee International Symposium on Intelligent Systems and Informatics},
-  pages={357--360},
-  year={2012},
-  organization={IEEE}
-}
+
+A superlotação em serviços públicos de saúde ocorre quando a demanda por atendimento supera de forma persistente a capacidade disponível de leitos, profissionais e equipamentos. Esse desequilíbrio é agravado pelo uso inadequado de serviços de urgência, longas internações e restrições orçamentárias, como demonstrado na sintese \cite{EVIPNet} e no artigo \cite{Santos2026}. \\
+
+As consequências desse desequilibrio incluem piora na qualidade do cuidado, aumento da mortalidade em casos agudos, sobrecarga dos profissionais e ineficiência financeira. Danos esses que a longo praso geram cada vez mais custo, e deterioram a reputação dos serviços publicos hospitalares de urgência.
+
+
+\subsection{Justificativa}
+\label{sec:justificativa}
+
+
+A crescente demanda por atendimentos de urgência e a limitação de recursos humanos, materiais e estruturais tornam essencial o uso de ferramentas tecnológicas que otimizem a tomada de decisão. O SAD permitirá melhor distribuição de leitos, equipes e equipamentos, reduzindo filas, tempo de espera e sobrecarga dos profissionais, possivelmente salvando vidas.
+
+\section{Objetivos} 
+Desenvolver e implementar um sistema inteligente capaz de analisar dados em tempo real e sugerir a alocação mais eficiente de recursos hospitalares, aumentando a eficiência operacional dos serviços de urgência e apoiando gestores na priorização de atendimentos críticos.
+
+\section{Benefícios} 
+
+Redução da superlotação, melhoria na qualidade do atendimento, uso racional de recursos, agilidade na resposta a emergências, apoio à gestão hospitalar baseada em dados e maior satisfação de pacientes e profissionais.
+
+\section{Descrição das próximas seções} 
+As próximas seções apresentam o produto a ser desenvolvido, trabalhos relacionados, arquitetura proposta, requisitos, telas do sistema, stakeholders, equipe, premissas, entregas, restrições, riscos, cronograma, custos, limitações e considerações finais.
+
+
+\section{O que será feito? } \label{sec:oque}
+
+
+
+\subsection{O SAD}
+
+Um software de apoio à decisão com interface interativa e algoritmos de análise preditiva que indicam a melhor alocação de recursos (leitos, equipamentos, pessoal).
+
+
+\subsection{Trabalhos Relacionados}
+
+\subsubsection{Síntese de evidências para políticas de saúde Congestão e superlotação dos serviços hospitalares de urgências: \cite{EVIPNet}}
+A sintese influencia diretamente o desenvolvimento do SAD ao reunir dados e recomendações práticas sobre as principais causas e consequências da superlotação hospitalar, além de estratégias de enfrentamento aplicáveis em contextos de alta demanda.\\
+ \\
+ Ela fornece uma base científica sólida para justificar a necessidade de um sistema inteligente, destacando medidas como triagem eficiente, fortalecimento da atenção primária, coordenação de redes e regulação de leitos. Essas evidências orientam a modelagem do SAD, reforçando que a tomada de decisão baseada em dados é essencial para reduzir filas, otimizar recursos e melhorar a qualidade do atendimento em unidades de urgência.
+
+
+\subsubsection{Intervenções para reduzir a superlotação nos serviços de emergência: uma revisão abrangente:{\cite{Santos2026}}}
+O artigo publicado na *International Emergency Nursing (2025)* influencia diretamente o desenvolvimento do SAD ao abordar estratégias inovadoras de gestão em ambientes de urgência e emergência, com foco na eficiência do fluxo de pacientes e na redução da sobrecarga das equipes de saúde.\\
+\\
+As evidências apresentadas demonstram como protocolos estruturados, apoio tecnológico e análise de dados podem melhorar a tomada de decisão em situações críticas, garantindo maior segurança e qualidade no atendimento. Essa contribuição é fundamental para o SAD, pois reforça a necessidade de integrar algoritmos preditivos e ferramentas de apoio à decisão que auxiliem gestores hospitalares na alocação de recursos, na triagem inteligente e na antecipação de cenários de superlotação, tornando o sistema mais robusto e alinhado às práticas contemporâneas de gestão em saúde.
+
+
+\subsubsection{Previsão de visitas de pacientes em departamentos de emergência: Modelos LSTM auto-adaptáveis ​​para distribuições de dados em evolução: \cite{Haxaire2026}}
+O trabalho publicado na Computer Methods and Programs in Biomedicine (2025) discute o emprego de algoritmos avançados de aprendizado de máquina e análise preditiva para otimizar processos clínicos e administrativos, com foco em melhorar a eficiência do atendimento e reduzir gargalos em serviços de saúde. \\
+\\
+Essa abordagem é altamente relevante pois reforça a importância da integração de dados hospitalares em tempo real e da utilização de modelos preditivos para apoiar decisões críticas, como a alocação de leitos e equipes médicas. Além disso, o artigo demonstra que soluções baseadas em IA podem aumentar a precisão na triagem de pacientes e antecipar cenários de superlotação, o que fortalece a proposta do SAD de oferecer suporte confiável e baseado em evidências para gestores hospitalares.
+
+
+\subsubsection{Consequências morais adversas da superlotação entre profissionais de departamentos de emergência: uma pesquisa exploratória: \cite{Kempf2026}}
+A pesquisa exploratória publicada na *Monatsschrift Kinderheilkunde (2026)* influencia o SAD ao destacar como a superlotação impacta diretamente não só a qualidade do atendimento e a segurança dos pacientes mas também a saude mental dos funcionários.\\
+ \\
+ As análises apresentadas reforçam a necessidade de sistemas inteligentes capazes de prever demandas, otimizar a alocação de leitos e apoiar decisões clínicas em tempo real. Essa contribuição é essencial para o SAD, pois demonstra que soluções baseadas em dados e algoritmos preditivos podem oferecer suporte confiável aos gestores hospitalares e ajudar ainda mais pessoas.
+
+\subsubsection{Por que os pacientes procuram atendimento de emergência para problemas que poderiam ser tratados na atenção primária? Uma revisão de escopo: \cite{Chao2025}}
+
+O SAD pode utilizar a informação destacada no artigo da Family Practice (2025), que evidencia que muitos pacientes recorrem aos serviços de urgência mesmo sem necessidade, para implementar mecanismos de triagem inteligente capazes de identificar e redirecionar esses casos para a atenção primária ou serviços ambulatoriais adequados.\\
+ \\
+ Ao integrar dados do histórico do paciente e aplicar algoritmos de análise preditiva, o sistema pode diferenciar situações críticas das não urgentes, reduzindo a pressão sobre os hospitais e evitando que recursos escassos sejam consumidos indevidamente. Dessa forma, o artigo auxilia o SAD a diminuir a superlotação, otimizar a alocação de leitos e profissionais e garantir que os atendimentos emergenciais sejam destinados a quem realmente necessita.
+
+
+\subsection{Arquitetura Visão-Modelo 4+1}
+
+\subsubsection{Visão Lógica}
+Módulo de triagem inteligente coleta dados dos pacientes e sugere prioridade de atendimento.  
+Módulo de alocação de recursos indica a melhor distribuição de leitos, equipamentos e profissionais.  
+Interface interativa dashboards com indicadores em tempo real (ocupação de leitos, tempo médio de espera, disponibilidade de profissionais).  
+Banco de dados hospitalar integrado prontuário eletrônico, controle de leitos e escala de profissionais. 
+
+\subsubsection{Visão de Desenvolvimento}
+Camada de apresentação interface web responsiva para gestores e equipe médica.  
+Camada de aplicação algoritmos de análise preditiva e regras de negócio para priorização.  
+Camada de integração APIs para comunicação com sistemas hospitalares existentes (prontuário eletrônico, CNES, escalas).  
+Camada de persistência banco de dados relacional para armazenar informações de pacientes, recursos e histórico de decisões.  
+\subsubsection{Visão de Processo}
+Fluxo de triagem entrada de dados do paciente → análise de prioridade → sugestão de atendimento.  
+Fluxo de alocação consulta à base de recursos → algoritmo de otimização → recomendação de leito/equipe.  
+Fluxo de monitoramento atualização em tempo real da ocupação hospitalar e alertas para gestores. 
+\subsubsection{Visão Física}
+Servidor central hospeda aplicação SAD e banco de dados.  
+Clientes web acessados por gestores e equipe médica via navegador.  
+Integração com sistemas hospitalares via rede segura (VPN ou API REST).  
+Camada de segurança autenticação de usuários, criptografia de dados, conformidade com LGPD.
+\subsubsection{Visão de Caso de Uso}
+
+\textbf{Ator}: Gestor Hospitalar
+
+\begin{itemize}
+	\item Consultar ocupação de leitos
+    \item Consultar recomendações de alocação de leitos
+    \item Consultar equipamentos
+    \item Consultar recomendações de alocação de equipamentos
+    \item Consultar situação dos funcionários
+    \item Consultar recomendações de alocação dos funcionários
+\end{itemize}
+ 
+\textbf{Ator}: Equipe Médica/Enfermagem
+
+\begin{itemize}
+	\item Registrar entrada de paciente
+    \item Consultar recomendações de triagem
+    \item Manipular status de atendimento
+\end{itemize}
+
+\textbf{Ator}: Sistema externo (prontuário eletrônico)
+
+\begin{itemize}
+	\item Fornecer dados clínicos e históricos.
+\end{itemize}
+
+\subsection{Requisitos}
+
+
+O sistema precisa se conectar de forma segura e eficiente a bancos de dados como prontuários eletrônicos, controle de leitos e escalas de profissionais, garantindo que as informações estejam sempre atualizadas e disponíveis em tempo real. Além disso, os algoritmos de priorização devem ser capazes de avaliar a gravidade clínica dos pacientes e prever demandas futuras, permitindo que gestores tomem decisões rápidas e embasadas para reduzir filas e otimizar recursos.
+
+Outro requisito essencial é a interface interativa e amigável, que deve apresentar dashboards claros e responsivos para diferentes perfis de usuários, como gestores, médicos e enfermeiros. Essa interface precisa oferecer indicadores de ocupação, tempo médio de espera e disponibilidade de profissionais, além de emitir alertas sobre riscos de superlotação. Complementando esses pontos, a segurança e confidencialidade dos dados é indispensável, com conformidade à LGPD, criptografia e controle de acesso.
+
+
+\subsection{Telas do Sistema}
+
+Apresentar As telas referente aos fluxos dos processos de negócio;\\
+
+Obs.: Inclua Figuras, Tabelas, Quadros, Códigos, etc...
+
+
+A Figura \ref{fig:fluxo_sistema} apresenta um fluxo descrevendo o processo principal do sistema. 
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=12cm]
+{images/telas.jpg}
+\caption{Gráfico de prisma com a extração de dados}
+\label{fig:fluxo_sistema}
+\end{figure}
+
+
+
+
+\section{Quem fará o projeto}\label{sec:quem}
+
+
+
+\subsection{Stakeholders e Fatores Externos}
+Gestores hospitalares; equipe médica e de enfermagem; setor de tecnologia da informação; pacientes; secretarias de saúde; e órgãos reguladores. 
+
+\subsubsection{Mapa de Empatia do Tomador de Decisão}
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=12cm]
+{images/MapaDeEmpatia.png}
+\caption{Gráfico apresentando o mapa de empatia do tomador de decisão}
+\label{fig:MapaDeEmpatia}
+\end{figure}
+
+\subsection{Equipe}
+Apresentar a Equipe e a funão de cada um
+
+\begin{itemize}
+  \item Davi Bittencourt de Almeida: Pesquisa, correções e escrita do manuscrito;
+  \item Gustavo Henrique Aragão Silva: Pesquisa, correções e escrita do manuscrito;
+  \item Gyovani Yuri Souza Santos: Pesquisa, correções e escrita do manuscrito;
+  \item João Felipe Quentino: Pesquisa, correções e escrita do manuscrito;
+  \item Jorge Henrique Marques Gomes: Pesquisa, correções e escrita do manuscrito;
+  \item Wemerson da Silva Soares: Pesquisa, correções e escrita do manuscrito;
+  \item Verônica dos Santos Nascimento: Pesquisa, correções e escrita do manuscrito;
+  \item Gilton José Ferreira da Silva: Coordenação do trabalho, correções e direcionamentos da pesquisa.
+\end{itemize}
+
+\section{Como o projeto será feito?} \label{sec:Como}
+
+\subsection{Premissas}
+Os hospitais possuem infraestrutura mínima de TI; há disponibilidade de dados confiáveis; os profissionais são capacitados para utilizar o sistema; e há apoio institucional para a implementação.
+
+\subsection{Grupo de entregas}
+Fase 1: Levantamento de requisitos; Fase 2: Desenvolvimento e testes do sistema; Fase 3: Integração e implantação piloto; Fase 4: Treinamento e ajustes finais; Fase 5: Avaliação e expansão.
+
+\subsection{Restrições}
+ Limitações orçamentárias, resistência à adoção tecnológica por parte de usuários, dependência da qualidade dos dados inseridos, conformidade com normas de proteção de dados (LGPD).
+
+\section{Quando e quanto?} \label{sec:quandoquanto}
+
+\subsection{Riscos}
+ Falhas de integração com sistemas existentes; indisponibilidade de dados em tempo real; baixa adesão dos usuários; erros de recomendação em situações críticas; e atrasos no desenvolvimento.
+
+\subsection{Linha do tempo}
+A linha do tempo se organiza em cinco fases sequenciais: inicialmente ocorre o levantamento de requisitos, onde são identificadas as necessidades dos gestores e a infraestrutura disponível, em seguida, parte-se para o desenvolvimento e testes do sistema, com a construção dos módulos de triagem, alocação de recursos e integração com bases hospitalares, na terceira etapa acontece a integração e implantação piloto, permitindo validar o funcionamento em ambiente real, depois vem a fase de treinamento e ajustes finais, voltada à capacitação dos usuários e correção de eventuais falhas, por fim, realiza-se a avaliação e expansão, em que os resultados são medidos e o sistema é ampliado para outras unidades de saúde, consolidando sua aplicação prática.
+
+\subsection{Custos}
+A implantação do Sistema Inteligente para Descongestionar Unidades de Saúde demandaria um investimento inicial estimado entre **R\$ 630.000 e R\$ 1.050.000**, abrangendo custos de desenvolvimento e testes do software, infraestrutura de TI (servidores, banco de dados e segurança), integração com sistemas hospitalares já existentes, além de treinamento e capacitação dos usuários; após a implementação, seriam necessários aproximadamente **R\$ 100.000 anuais** para manutenção, suporte e atualizações, valores que podem variar conforme o porte da instituição, a complexidade da integração e o nível de sofisticação dos algoritmos de análise preditiva.
+
+\section{Limitações do Trabalho} \label{sec:ameacas}
+
+As principais limitações do projeto estão relacionadas à dependência da qualidade e disponibilidade dos dados hospitalares já que informações incompletas ou desatualizadas podem comprometer a precisão das recomendações. Além disso, há a resistência de usuários à adoção tecnológica especialmente em ambientes hospitalares onde a rotina já é sobrecarregada, o que pode dificultar a implementação e o uso efetivo do sistema.  
+
+Outro ponto limitante é a restrição orçamentária que pode impedir investimentos adequados em infraestrutura de TI e treinamento de profissionais. Também é necessário considerar os riscos de falhas de integração com sistemas existentes a baixa adesão dos usuários e a possibilidade de erros de recomendação em situações críticas que exigem validação constante. Por fim, o sistema deve estar em conformidade com a LGPD o que adiciona complexidade ao tratamento de dados sensíveis e pode limitar a forma como as informações são coletadas e utilizadas.
+
+
+\section{Considerações Finais} \label{sec:consideracoes}
+Para atingir o objetivo de desenvolver um Sistema Inteligente para Descongestionar Unidades de Saúde, foram realizadas atividades de levantamento de requisitos junto a gestores hospitalares e análise de dados sobre superlotação em serviços de urgência. Essa etapa permitiu identificar os principais gargalos, como a falta de leitos, a sobrecarga de profissionais e a necessidade de integração com sistemas já existentes, além de definir as funcionalidades essenciais do SAD.
+
+Em seguida, foram elaborados modelos conceituais e estruturais utilizando o Project Model Canvas, que possibilitaram organizar justificativas, objetivos, benefícios, riscos e stakeholders envolvidos. Também foram estudados trabalhos relacionados e experiências anteriores em cidades inteligentes e saúde, servindo como base para a definição da arquitetura do sistema e para a construção de um protótipo inicial capaz de simular a alocação de recursos hospitalares em cenários de alta demanda.
+
+
+A metodologia adotada foi baseada em uma abordagem de gestão de projetos estruturada pelo Project Model Canvas, complementada por revisão bibliográfica e análise de evidências sobre superlotação hospitalar. Foram utilizadas técnicas de modelagem de processos e definição de requisitos funcionais e não funcionais, além da proposição de uma arquitetura de software conforme o modelo 4+1, garantindo que o sistema fosse descrito sob diferentes perspectivas (usuário, desenvolvedor, processo, físico e casos de uso).
+
+Entre os pontos fracos que podem comprometer a credibilidade do trabalho estão a dependência da qualidade dos dados hospitalares, que podem ser incompletos ou desatualizados, e a resistência de profissionais à adoção de novas tecnologias. Além disso, limitações orçamentárias e possíveis falhas de integração com sistemas já existentes podem dificultar a implementação prática do SAD, exigindo validação contínua para evitar erros em situações críticas.
+
+As atividades futuras incluem o desenvolvimento completo do protótipo do SAD, seguido de testes em ambiente hospitalar piloto para validar sua eficácia na alocação de recursos. Também será necessário realizar treinamentos com gestores e equipes médicas, ajustar funcionalidades conforme feedback dos usuários e ampliar a integração com diferentes sistemas hospitalares. Por fim, pretende-se expandir o uso do SAD para outras unidades de saúde, consolidando sua aplicação prática e avaliando os impactos na redução da superlotação.
+
+\section*{Agradecimentos} \label{sec:agradecimentos}
+
+Esta seção tem como objetivo agradecer a todas as pessoas e instituições que ajudaram na pesquisa, mas que não se qualificam para autoria.
+
+Alguns periódicos e eventos exigem que sejam informados os dados refentes ao às organizações que financiaram a pesquisa.
+
+
+
+
+
+
+
+\bibliographystyle{sbc}
+\bibliography{referencias}
+
+\end{document}
